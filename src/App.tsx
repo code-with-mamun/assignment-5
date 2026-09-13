@@ -28,7 +28,7 @@ function App() {
         <Technology technologyPromise={technologyPromise}></Technology>
       </Suspense>
       <ToastContainer></ToastContainer>
-
+          {/* here is my footer section  */}
       <Footer></Footer>
     </>
   );
