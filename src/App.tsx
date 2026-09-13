@@ -19,6 +19,7 @@ function App() {
 
   return (
     <>
+    {/* nav section  */}
       <Nav></Nav>
       <Hero></Hero>
 
