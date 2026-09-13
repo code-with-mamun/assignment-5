@@ -15,20 +15,20 @@ function App() {
   };
 
   const technologyPromise: Promise<ITechnologyType[]> = technologiesFetch();
-  // console.log(technologyPromise);
+  
 
   return (
     <>
-    {/* nav section  */}
+    
       <Nav></Nav>
-      {/* hero section  */}
+     
       <Hero></Hero>
-     {/* here i did api work  */}
+    
       <Suspense fallback={<h2 className="text-center"> Loading ......</h2>}>
         <Technology technologyPromise={technologyPromise}></Technology>
       </Suspense>
       <ToastContainer></ToastContainer>
-          {/* here is my footer section  */}
+         
       <Footer></Footer>
     </>
   );
