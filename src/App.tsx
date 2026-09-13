@@ -21,6 +21,7 @@ function App() {
     <>
     {/* nav section  */}
       <Nav></Nav>
+      {/* hero section  */}
       <Hero></Hero>
 
       <Suspense fallback={<h2 className="text-center"> Loading ......</h2>}>
